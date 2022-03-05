@@ -5,7 +5,7 @@ var hours = document.getElementById('hours');
 var minutes = document.getElementById('minutes');
 var seconds = document.getElementById('seconds');
 
-const newYear = new Date('Tue Dec 15 2020 19:00:00 EST')
+const newYear = new Date('Mon Mar 7 2022 11:59:00 PST')
 
 function remainingTime() {
     const time = new Date()
