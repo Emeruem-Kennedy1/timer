@@ -7,6 +7,7 @@ var seconds = document.getElementById('seconds');
 
 const newYear = new Date('Mon Mar 07 2022 11:59:00 PST')
 
+console.log(newYear)
 function remainingTime() {
     const time = new Date()
     const targetDate  = newYear;
