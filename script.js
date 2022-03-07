@@ -18,6 +18,7 @@ function remainingTime() {
     const minutesLeft = Math.floor(secs/60 % 60);
     const secondsLeft = Math.floor(secs % 60);
 
+    console.log(hoursLeft)
     days.innerHTML = daysLeft;
     hours.innerHTML = hoursLeft;
     minutes.innerHTML = minutesLeft
