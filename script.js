@@ -5,7 +5,7 @@ var hours = document.getElementById('hours');
 var minutes = document.getElementById('minutes');
 var seconds = document.getElementById('seconds');
 
-const newYear = new Date('Mon Mar 07 2022 11:59:00 PST')
+const newYear = new Date('Mon Mar 07 2022 23:59:00 PST')
 
 console.log(newYear)
 function remainingTime() {
@@ -39,4 +39,3 @@ function remainingTime() {
 
 remainingTime();
 setInterval(remainingTime, 1000);
-
